@@ -1,2 +1,2 @@
 # github-tutorial
-First test project
+First-test-project
