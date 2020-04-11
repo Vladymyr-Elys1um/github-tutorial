@@ -2,3 +2,33 @@ body {
   background-color: #ffffff;
   color: #2a2a2a;
 }
+
+p {
+  color: rgba(15, 64, 199, 0.938);
+  width: 220px;
+  height: 150px;
+  background-image: url(blue-crystal-pattern-background-vector-19752502.jpg);
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.for-pattern {
+  height: 400px;
+  width: 400px;
+  background-image: url(blue-crystal-pattern-background-vector-19752502.jpg);
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  margin: 10px;
+}
+
+.for-pattern2 {
+  height: 1200px;
+  width: 1200px;
+  margin: 10px;
+  max-width: 400px;
+  max-height: 400px;
+  background-image: url(blue-crystal-pattern-background-vector-19752502.jpg);
+  background-repeat: no-repeat;
+  background-color: green;
+  background-position: 85px 50px;
+}
