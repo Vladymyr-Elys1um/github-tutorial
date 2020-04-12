@@ -1,15 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #ffffff;
   color: #2a2a2a;
 }
 
-p {
+.first-p {
   color: rgba(15, 64, 199, 0.938);
   width: 220px;
   height: 150px;
   background-image: url(blue-crystal-pattern-background-vector-19752502.jpg);
   background-repeat: no-repeat;
   margin: 10px;
+}
+
+textarea {
+  width: 420px;
 }
 
 .for-pattern {
@@ -56,3 +65,76 @@ p {
 }
 
 /* list-style: none;  - убирает маркеры в списке*/
+
+.article-about-cat {
+  color: mediumseagreen;
+  background-color: wheat;
+  width: 425px;
+}
+
+ul {
+  color: aqua;
+}
+
+li {
+  color: darkorchid;
+}
+
+/* Селектор айди, их не может быть больше 1го на странице, в отличии от классов*/
+#box1 {
+  text-decoration: underline;
+}
+
+.form-item1 {
+  color: aqua;
+}
+
+/* селектор атрибута, ищет в ХТМЛ файле именно такой атрибут и стилизирует его*/
+[href="http://google.com"]
+{
+  color: red;
+  text-decoration: line-through;
+}
+
+/* селектор потомка*/
+
+div p {
+  color: green;
+}
+
+.box2 a {
+  font-size: 20px;
+}
+
+.box2 {
+  padding-left: 30px;
+}
+
+.box2 .box2-item > li > a {
+  color: black;
+  font-size: 10px;
+}
+
+.box2-item {
+  color: darkred;
+  font-size: medium;
+}
+
+.box2-item ul li {
+  color: blue;
+}
+
+.box2-item ul li a {
+  color: aqua;
+}
+
+.box3 {
+  padding-left: 20px;
+}
+.box3 ul ol > a {
+  font-size: 10px;
+}
+
+div + span {
+  background-color: rgb(199, 155, 102);
+}
